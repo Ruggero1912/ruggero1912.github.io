@@ -25,10 +25,6 @@ With a strong foundation in software engineering, coupled with expertise in deep
       - [{{ post.title }}]({{ post.url }})
   {% endfor %}
 
-- [How to Deploy a Jekyll Website on GitHub Pages](/blog/deploy-jekyll-website-github-pages)
-- [Building Scalable Web Applications with Docker and Kubernetes](/blog/scalable-web-apps-docker-kubernetes)
-- [Introduction to Deep Learning: Getting Started with TensorFlow](/blog/intro-deep-learning-tensorflow)
-
 Stay tuned for more articles coming soon!
 
 ## Education 🎓

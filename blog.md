@@ -16,7 +16,8 @@
         <span class="post-excert">
         {{ post.excerpt }} 
           
-          <!-- <a href="{{ post.url }}">... read more</a></span> -->
+          <!-- < a href="{ { post.u rl } }" >... read more< / a >< / spa n> -->
+
     </li>
   {% endfor %}
 </ul>

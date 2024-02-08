@@ -90,27 +90,17 @@ Visit the [blog](/blog) section for the complete list of articles.
 ## More infos
 <details>
   <summary>Interests</summary>
-- artificial intelligence
-
-- internet of things
-
-- cloud computing
-
-- electronics
-
-- programming
-
-- DIY
-
-- web development
-
-- tech devices
-
-- drones
-
-- 3D printing
-
-- CTFs
+  <p class="topic-badge">artificial intelligence</p>
+  <p class="topic-badge">internet of things</p>
+  <p class="topic-badge">cloud computing</p>
+  <p class="topic-badge">electronics</p>
+  <p class="topic-badge">programming</p>
+  <p class="topic-badge">DIY</p>
+  <p class="topic-badge">web development</p>
+  <p class="topic-badge">tech devices</p>
+  <p class="topic-badge">drones</p>
+  <p class="topic-badge">3D printing</p>
+  <p class="topic-badge">CTFs</p>
 </details>
 
 <details>

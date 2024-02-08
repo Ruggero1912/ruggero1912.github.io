@@ -14,11 +14,7 @@
       
       <h1 style="display:flex; justify-content: space-between;">
         <a style="color: unset; text-decoration: underline;" href="{{ "/" | absolute_url }}">
-            {% if site.title and site.title != page.title %}
-                {{ site.title }}
-            {% else %}
-                Home
-            {% endif %}
+            <img class="logo-image" src="{{ '/paciosoft-logo.png' | relative_url }}" alt="{{ site.title }}">
         </a>
 
         <div style="font-size: 14px; display:flex;">

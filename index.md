@@ -21,9 +21,11 @@ With a strong foundation in software engineering, coupled with expertise in deep
 
 ### Latest Articles 📰
 
-  {% for post in site.posts %}
-      - [{{ post.title }}]({{ post.url }})
-  {% endfor %}
+{% for post in site.posts %}
+
+- [{{ post.title }}]({{ post.url }})
+
+{% endfor %}
 
 Stay tuned for more articles coming soon!
 

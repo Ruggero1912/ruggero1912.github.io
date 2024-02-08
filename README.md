@@ -8,3 +8,10 @@ You can visit the website at [paciosoft.com](https://paciosoft.com).
 
 Default GitHub Pages Jekyll theme: https://github.com/pages-themes/primer
 
+
+Where to find emojis: https://emojidb.org/
+
+
+Where to find SVGs: https://simpleicons.org/
+
+

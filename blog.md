@@ -18,7 +18,7 @@
          </span>
         <br>
         <span class="post-excert">
-        {{ post.excerpt }} 
+        {{ post.excerpt | truncatewords: 15 }} 
           
             <!-- < a href="{ { post.u rl } }" >... read more< / a > -->
 

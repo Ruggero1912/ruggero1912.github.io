@@ -3,7 +3,17 @@ layout: default
 ---
 
 <h1 class="article-title">{{ page.title }}</h1>
-<div style="margin-bottom: 30px;"><span class="post-meta">{{ page.date | date: "%-d %B %Y" }}</span> | 
+<div style="margin-bottom: 30px;"><span class="post-meta">{{ page.date | date: "%-d %B %Y" }}</span>
+    | 
+    {% capture words %}
+          {{ content | number_of_words | minus: 180 }}
+          {% endcapture %}
+          {% if words contains '-' %}
+          1 minute to read
+          {%else %}
+          {{ words | plus: 180 | divided_by: 180 | append: ' minutes to read' }}
+          {% endif %}
+    | 
     <span class="post-meta">Posted by
         {% if page.author %}
         {{ page.author }}

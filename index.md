@@ -3,7 +3,7 @@
 <img style="border-radius:50%;" src="{{ '/me.jpeg' | relative_url }}" alt="a picture of me" />
 </h1>
 
-## About Me ℹ️
+<!-- ## About Me ℹ️ -->
 I am a passionate software engineer currently pursuing my Master's degree in Artificial Intelligence and Data Engineering at the University of Pisa, following my Bachelor's degree in Computer Engineering from the same institution. 
 
 With a strong foundation in software engineering, coupled with expertise in deep learning, cloud computing, and data engineering, I am dedicated to leveraging technology to solve complex problems and drive innovation.

@@ -3,10 +3,10 @@ layout: default
 ---
 
 <h1 class="article-title">{{ page.title }}</h1>
-<div><span class="post-meta">{{ page.date | date: "%-d %B %Y" }}</span> | 
-    <span>Posted by
-        {% if post.author %}
-        {{ post.author }}
+<div style="margin-bottom: 30px;"><span class="post-meta">{{ page.date | date: "%-d %B %Y" }}</span> | 
+    <span class="post-meta">Posted by
+        {% if page.author %}
+        {{ page.author }}
         {% else %}
         {{ site.author }}
         {% endif %}

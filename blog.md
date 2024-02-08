@@ -8,9 +8,11 @@
           {% capture words %}
           {{ post.content | number_of_words | minus: 180 }}
           {% endcapture %}
-          {% unless words contains '-' %}
+          {% if words contains '-' %}
+          1 minute to read
+          {%else %}
           {{ words | plus: 180 | divided_by: 180 | append: ' minutes to read' }}
-          {% endunless %}
+          {% endif %}
          </span>
         <br>
         <span class="post-excert">

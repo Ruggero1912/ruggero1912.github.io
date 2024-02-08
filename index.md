@@ -1,4 +1,7 @@
-# 👋 Hi! I'm Giacomo Pacini
+<h1 style="display:flex; justify-content:space-between;"> 
+<span style="align-self: flex-end;">👋 Hi! I'm Giacomo Pacini </span>
+<img style="border-radius:50%;" src="{{ '/me.jpeg' | relative_url }}" alt="a picture of me" />
+</h1>
 
 ## About Me ℹ️
 I am a passionate software engineer currently pursuing my Master's degree in Artificial Intelligence and Data Engineering at the University of Pisa, following my Bachelor's degree in Computer Engineering from the same institution. 

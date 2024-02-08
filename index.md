@@ -105,22 +105,22 @@ Visit the [blog](/blog) section for the complete list of articles.
 
 <details>
   <summary>Technical knowledge</summary>
-  <li>DBMS MySQL</li>
-  <li>C++</li>
-  <li>JavaScript</li>
-  <li>PHP</li>
-  <li>HTML, CSS</li>
-  <li>Laravel</li>
-  <li>Linux</li>
-  <li>Assembly</li>
-  <li>Python</li>
-  <li>Java</li>
-  <li>MongoDB</li>
-  <li>Neo4J</li>
-  <li>Hadoop</li>
-  <li>Spark</li>
-  <li>TensorFlow</li>
-  <li>Julia</li>
+  <p class="topic-badge">DBMS MySQL</p>
+  <p class="topic-badge">C++</p>
+  <p class="topic-badge">JavaScript</p>
+  <p class="topic-badge">PHP</p>
+  <p class="topic-badge">HTML, CSS</p>
+  <p class="topic-badge">Laravel</p>
+  <p class="topic-badge">Linux</p>
+  <p class="topic-badge">Assembly</p>
+  <p class="topic-badge">Python</p>
+  <p class="topic-badge">Java</p>
+  <p class="topic-badge">MongoDB</p>
+  <p class="topic-badge">Neo4J</p>
+  <p class="topic-badge">Hadoop</p>
+  <p class="topic-badge">Spark</p>
+  <p class="topic-badge">TensorFlow</p>
+  <p class="topic-badge">Julia</p>
 </details>
 
 ## Contact Me 📬

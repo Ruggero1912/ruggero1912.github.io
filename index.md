@@ -115,37 +115,22 @@ Visit the [blog](/blog) section for the complete list of articles.
 
 <details>
   <summary>Technical knowledge</summary>
-- DBMS MySQL
-
-- C++
-
-- JavaScript
-
-- PHP
-
-- HTML, CSS
-
-- Laravel
-
-- Linux
-
-- Assembly
-
-- Python
-
-- Java
-
-- MongoDB
-
-- Neo4J
-
-- Hadoop
-
-- Spark
-
-- TensorFlow
-
-- Julia
+  <li>DBMS MySQL</li>
+  <li>C++</li>
+  <li>JavaScript</li>
+  <li>PHP</li>
+  <li>HTML, CSS</li>
+  <li>Laravel</li>
+  <li>Linux</li>
+  <li>Assembly</li>
+  <li>Python</li>
+  <li>Java</li>
+  <li>MongoDB</li>
+  <li>Neo4J</li>
+  <li>Hadoop</li>
+  <li>Spark</li>
+  <li>TensorFlow</li>
+  <li>Julia</li>
 </details>
 
 ## Contact Me 📬

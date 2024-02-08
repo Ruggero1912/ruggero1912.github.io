@@ -1,3 +1,5 @@
+### Posts
+
 <ul style="margin-left:0; list-style:none;">
   {% for post in site.posts %}
     <li>

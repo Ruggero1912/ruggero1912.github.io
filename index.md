@@ -21,19 +21,17 @@ With a strong foundation in software engineering, coupled with expertise in deep
 
 ### Latest Articles 📰
 
-{% for post in site.posts %}
+{% for post in site.posts  limit:3 %}
 
 - [{{ post.title }}]({{ post.url }})
 
 {% endfor %}
 
-Stay tuned for more articles coming soon!
+Visit the [blog](/blog) section for the complete list of articles.
 
 ## Education 🎓
 - **Master's Degree:** Artificial Intelligence and Data Engineering, University of Pisa (Expected Graduation: MM/YYYY)
 - **Bachelor's Degree:** Computer Engineering, University of Pisa (04/2021)
 
 ## Contact Me 📬
-Feel free to reach out to me via email at [giacomo@paciosoft.com](mailto:giacomo@paciosoft.com) or connect with me on [LinkedIn]().
-
-Thank you for visiting my portfolio! 👋
+Feel free to reach out to me via email at [giacomo@paciosoft.com](mailto:giacomo@paciosoft.com) or connect with me on [LinkedIn](https://dronesimulator.it/r/my-linkedin).

@@ -1,9 +1,7 @@
 <ul style="margin-left:0; list-style:none;">
   {% for post in site.posts %}
     <li>
-        <h2>
           <a class="post-title h-entry u-url" href="{{ post.url }}">{{ post.title }}</a>
-        </h2>
         <span class="post-meta"> <span>{{ post.date | date: "%-d %B %Y" }}</span>
          |
          <!-- This is a work around to content | reading_time which does not work on github pages because custom plugins are not allowed --> 

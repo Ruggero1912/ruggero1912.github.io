@@ -17,8 +17,8 @@
           {% endif %}
          |
          Posted by
-          {% if page.author %}
-          {{ page.author }}
+          {% if post.author %}
+          {{ post.author }}
           {% else %}
           {{ site.author }}
           {% endif %}

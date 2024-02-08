@@ -14,4 +14,4 @@ Where to find emojis: https://emojidb.org/
 
 Where to find SVGs: https://simpleicons.org/
 
-
+Markdown cheatsheet: https://github.com/lifeparticle/Markdown-Cheatsheet

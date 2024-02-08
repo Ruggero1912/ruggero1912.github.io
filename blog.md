@@ -16,8 +16,9 @@
         <span class="post-excert">
         {{ post.excerpt }} 
           
-          <!-- < a href="{ { post.u rl } }" >... read more< / a >< / spa n> -->
+            <!-- < a href="{ { post.u rl } }" >... read more< / a > -->
 
+        </span>
     </li>
   {% endfor %}
 </ul>

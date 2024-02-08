@@ -15,10 +15,17 @@
           {%else %}
           {{ words | plus: 180 | divided_by: 180 | append: ' minutes to read' }}
           {% endif %}
+         |
+         Posted by
+          {% if page.author %}
+          {{ page.author }}
+          {% else %}
+          {{ site.author }}
+          {% endif %}
          </span>
         <br>
         <span class="post-excert">
-        {{ post.excerpt | truncatewords: 15 }} 
+        {{ post.excerpt | strip_html | truncatewords: 15 }} 
           
             <!-- < a href="{ { post.u rl } }" >... read more< / a > -->
 

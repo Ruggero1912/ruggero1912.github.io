@@ -3,3 +3,7 @@ description: "My personal portfolio and blog"
 minima:
   skin: dark
 author: "Giacomo Pacini"
+collections:
+  projects:
+    output: true
+    sort_by: priority

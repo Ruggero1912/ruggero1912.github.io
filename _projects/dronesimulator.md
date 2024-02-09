@@ -1,4 +1,5 @@
 ---
+layout: project
 name: dronesimulator
 technologies: PHP, JavaScript, Python, Flask, SciKitLearn, SQL
 authors: "Giacomo Pacini"

@@ -1,4 +1,5 @@
 ---
+layout: project
 name: TravelTales
 technologies: Python
 authors: "Giacomo Pacini" "Enrico Nello" "Matteo Pierucci"

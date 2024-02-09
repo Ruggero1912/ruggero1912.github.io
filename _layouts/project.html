@@ -4,8 +4,8 @@ layout: default
 
 <h1 class="article-title">{{ page.name }}</h1>
 
-{% if page.author %}
-    <p>{{page.short_description}}</p>
+{% if page.short_description %}
+    <p>{{ page.short_description }}</p>
 {% endif %}
 
 <div style="margin-bottom: 30px;"><span class="post-meta">Made in {{ page.date | date: "%B %Y" }}</span>
@@ -22,6 +22,12 @@ layout: default
     <span class="post-meta">Posted by
         {{ site.author }}
     </span></div>
+
+    {% if page.image %}
+        <div style="text-align: center;">
+            <img src="{{ page.image }}" alt="{{ page.name }} logo">
+        </div>
+    {% endif %}
 
 {{ content }}
 

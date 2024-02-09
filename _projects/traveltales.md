@@ -62,7 +62,7 @@ Some short video demos:
 
 #### User registration and hardware architecture
 
-{% include ytPlayer.html id=PPvsExLQKnY %}
+{% include ytPlayer.html id="PPvsExLQKnY" %}
 
 ### Can I try it?
 

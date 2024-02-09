@@ -21,7 +21,7 @@
          </span>
         <br>
         <span class="post-excert">
-        {{ post.excerpt | strip_html | truncatewords: 15 }} 
+        {{ project.excerpt | strip_html | truncatewords: 15 }} 
 
             <a href="{{ project.url }}" >... read more</a>
 

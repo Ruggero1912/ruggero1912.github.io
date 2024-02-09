@@ -36,6 +36,14 @@ a.post-title{
     border-bottom: unset!important;
 }
 
+.feed-post-container{
+    display: flex;
+}
+
+.feed-post-image{
+    max-width: 50px;
+}
+
 .topic-badge{
     display: inline-block;
     border-radius: 10px;

@@ -12,7 +12,7 @@
           {% endif %}
 
           <div>
-          <p class="post-title"><a href="{{ project.url }}">{{ project.name }}</a>: {{ project.short_description }}</p>
+          <p><a class="post-title" href="{{ project.url }}">{{ project.name }}:</a> {{ project.short_description }}</p>
             <span class="post-meta"> <span>{{ project.date | date: "%B %Y" }}</span>
             |
             <!-- This is a work around to content | reading_time which does not work on github pages because custom plugins are not allowed --> 

@@ -3,6 +3,11 @@ layout: default
 ---
 
 <h1 class="article-title">{{ page.name }}</h1>
+
+{% if page.author %}
+    <p>{{page.short_description}}</p>
+{% endif %}
+
 <div style="margin-bottom: 30px;"><span class="post-meta">Made in {{ page.date | date: "%B %Y" }}</span>
     | 
     {% capture words %}
@@ -19,3 +24,5 @@ layout: default
     </span></div>
 
 {{ content }}
+
+<!-- TODO: div with github link if any, documentation link if any, authors list if any -->

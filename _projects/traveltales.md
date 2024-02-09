@@ -64,6 +64,22 @@ Some short video demos:
 
 {% include ytPlayer.html id="PPvsExLQKnY" %}
 
+#### News player interface
+
+{% include ytPlayer.html id="2C0YHlqBly8" %}
+
+#### Data visualization interface
+
+
+{% include ytPlayer.html id="DUHmPTPL8uU" %}
+
+
+#### Feedback gathering demo with face recognition and explicit user feedback store system
+
+
+{% include ytPlayer.html id="qlnyNr1SLLE" %}
+
+
 ### Can I try it?
 
 The code is freely available on GitHub, in [this repo]({{ page.github }}).

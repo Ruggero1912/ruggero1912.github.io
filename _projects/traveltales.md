@@ -39,7 +39,7 @@ The main characteristic of TravelTales is to know people preferences and propose
 The service can fetch news from any website, then for each of them it generates a summary which will be indexed according to topics that are treated in that news.
 
 
-For each news summary the system exploits the Coqui xTTS model v2 to produce a synthetized audio version of it.
+For each news summary the system exploits a TTS model to produce a synthetized audio version of it.
 
 
 #### News suggestion
@@ -53,3 +53,17 @@ At that point news audio file is played by the client system.
 
 After news proposition, the system starts a feedback gathering phase in which people engagement level is estimated by exploiting audio and video features coming from each user.
 
+The system is capable of recognizing who is speaking, the vocal emotion and also the facial expression of each passenger onboard during the gathering phase.
+
+
+### Demo
+
+Some short video demos:
+
+### Can I try it?
+
+The code is freely available on GitHub, in [this repo]({{ page.github }}).
+
+In order to run it, simply follow the instructions that you can find inside the repository.
+
+If you encounter any issue or problem during the deployment process, please contact me, I will be glad to give you more detailed instructions.

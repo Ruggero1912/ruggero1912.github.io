@@ -60,6 +60,10 @@ The system is capable of recognizing who is speaking, the vocal emotion and also
 
 Some short video demos:
 
+#### User registration and hardware architecture
+
+{% include youtubePlayer.html id=PPvsExLQKnY %}
+
 ### Can I try it?
 
 The code is freely available on GitHub, in [this repo]({{ page.github }}).

@@ -3,6 +3,7 @@
 
 @import "{{ site.theme }}";
 
+// https://github.com/jekyll/jekyll/issues/8570
 @import "theme-toggle.scss";
 //@import "{{ '/assets/css/theme-toggle.scss' | relative_url }}";
 

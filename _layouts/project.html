@@ -8,7 +8,11 @@ layout: default
     <p>{{ page.short_description }}</p>
 {% endif %}
 
-<div style="margin-bottom: 30px;"><span class="post-meta">Made in {{ page.date | date: "%B %Y" }}</span>
+<div style="margin-bottom: 30px;"><span class="post-meta">Made in {{ page.date | date: "%B %Y" }}
+    {% if page.active_project %}
+    , active project
+    { %endif %}
+</span>
     | 
     {% capture words %}
           {{ content | number_of_words | minus: 180 }}

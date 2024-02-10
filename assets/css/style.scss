@@ -13,7 +13,18 @@
 
 .logo-image{
     background-color: unset!important;
-    max-width: 80%!important;
+    max-width: 70%!important;
+    max-height: 40px!important;
+}
+
+.navbar-links-container{
+    font-size: 14px; 
+    display:flex;
+}
+
+.navbar-link{
+    align-self:flex-end; 
+    padding: 0px 10px;
 }
 
 .post-title {
@@ -41,9 +52,9 @@ a.post-title{
 }
 
 .feed-post-image{
-    width: 80px;
-    height: 80px;
-    margin: 5px;
+    width: 90px;
+    height: 90px;
+    margin: 10px;
 }
 
 .topic-badge{

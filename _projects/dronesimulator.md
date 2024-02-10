@@ -34,4 +34,4 @@ Beside the test simulation, the service implements various functionalities such 
 
 The website is available online and it has more than **21.000 registered users** from Italy.
 
-You can try it by yourself at [dronesimulator.it](https://dronesimulator.it).
+You can try dronesimulator at <a href="https://dronesimulator.it" target="_blank">dronesimulator.it</a>.

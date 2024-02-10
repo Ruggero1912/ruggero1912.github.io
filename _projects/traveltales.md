@@ -82,7 +82,7 @@ Some short video demos:
 
 ### Can I try it?
 
-The code is freely available on GitHub, in [this repo]({{ page.github }}).
+The code is freely available on GitHub, in <a href="{{ page.github }}" target="_blank">this repo</a>.
 
 In order to run it, simply follow the instructions that you can find inside the repository.
 

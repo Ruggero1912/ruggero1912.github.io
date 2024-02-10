@@ -38,7 +38,7 @@ function switchTheme(e) {
     }    
 }
 
-window.onload(() =>{
+window.onload = () =>{
     //identify the toggle switch HTML element
     const toggleSwitch = document.querySelector('#theme-switch input[type="checkbox"]');
 
@@ -49,7 +49,7 @@ window.onload(() =>{
     if (document.documentElement.getAttribute("data-theme") == "dark"){
         toggleSwitch.checked = true;
     }
-})
+}
 </script>
 
 

@@ -17,7 +17,7 @@ It implements also machine learning techniques for questions classification.
 - **Link:** [dronesimulator.it](https://dronesimulator.it)
 - **More details**: [here]({{ '/projects/dronesimulator' | relative_url }})
 
-### TravelTales
+### TravelTales 🚗♫📰👥
 - **Description:** An in-car service that generates a radio feed customized on passengers' interests exploiting various machine learning and AI techniques.
 - **Technologies used:** deep neural networks, transformers, dense information retrieval, TTS, face recognition, voice recognition, emotion recognition
 - university project, made in team

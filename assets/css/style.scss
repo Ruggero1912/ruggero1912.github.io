@@ -25,6 +25,8 @@
 .navbar-link{
     align-self:flex-end; 
     padding: 0px 10px;
+    color: unset!important;
+    text-decoration: underline;
 }
 
 .post-title {
@@ -49,6 +51,7 @@ a.post-title{
 
 .feed-post-container{
     display: flex;
+    margin-bottom: 15px;
 }
 
 .feed-post-image{

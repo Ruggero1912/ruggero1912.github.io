@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-@import "assets/css/theme-toggle.scss";
+@import "{ '/assets/css/theme-toggle.scss' | relative_url }";
 
 // @media (prefers-color-scheme: dark) {
 //     body {

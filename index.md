@@ -111,6 +111,7 @@ Visit the [blog](/blog) section for the complete list of articles.
   <p class="topic-badge">drones</p>
   <p class="topic-badge">3D printing</p>
   <p class="topic-badge">CTFs</p>
+  <p class="topic-badge">personal finance</p>
 </details>
 
 <details>

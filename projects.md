@@ -1,6 +1,6 @@
 ### My Projects
 
-<ul style="margin-left:0; list-style:none;">
+<ul style="margin-left:0; padding-left:0px; list-style:none;">
   {% for project in site.projects %}
     <li>
           <div class="feed-post-container">

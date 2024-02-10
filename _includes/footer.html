@@ -15,7 +15,7 @@
             <div class="theme-toggle-wrapper" for="checkbox_theme">
                 <label class="switch" id="theme-switch" >
                 <input type="checkbox" id="checkbox_theme">
-                <span class="slider"></span> <span> Theme </span>
+                <span> Theme </span><span class="slider"></span> 
                 </label>
             </div>
         </div>
@@ -32,8 +32,6 @@ footer{
 }
 
 .footer-grid{
-    display: flex;
-    flex-wrap: wrap;
     max-width: calc(800px - (30px * 2));
     padding-right: 30px;
     padding-left: 30px;
@@ -41,6 +39,11 @@ footer{
 }
 
 @media screen and (min-width: 600px){
+
+    .footer-grid{
+        display: flex;
+    }
+
     .footer-column:first-child {
         padding-right: 15px;
         padding-left: 0;

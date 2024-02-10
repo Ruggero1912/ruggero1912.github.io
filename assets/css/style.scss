@@ -3,6 +3,8 @@
 
 @import "{{ site.theme }}";
 
+@import "theme-toggle";
+
 // @media (prefers-color-scheme: dark) {
 //     body {
 //         background-color: black;

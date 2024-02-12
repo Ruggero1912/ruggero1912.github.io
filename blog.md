@@ -11,6 +11,7 @@
           {% endif %}
         <div>
           <a class="post-title h-entry u-url" href="{{ post.url }}">{{ post.title }}</a>
+          <br/>
         <span class="post-meta"> <span>{{ post.date | date: "%-d %B %Y" }}</span>
          |
          <!-- This is a work around to content | reading_time which does not work on github pages because custom plugins are not allowed --> 
@@ -34,7 +35,7 @@
         <span class="post-excert">
         {{ post.excerpt | strip_html | truncatewords: 15 }} 
           
-            <!-- < a href="{ { post.u rl } }" >... read more< / a > -->
+            <a href="{{ post.url }}"> read more</a>
 
         </span>
         </div>

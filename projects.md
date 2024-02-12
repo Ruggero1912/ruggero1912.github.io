@@ -1,7 +1,8 @@
 ### My Projects
 
 <ul style="margin-left:0; padding-left:0px; list-style:none;">
-  {% for project in site.projects %}
+  {% assign projects = site.projects | sort: "priority" %}
+  {% for project in projects %}
     <li>
           <div class="feed-post-container">
 

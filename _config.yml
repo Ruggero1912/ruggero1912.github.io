@@ -6,7 +6,8 @@ author: "Giacomo Pacini"
 collections:
   projects:
     output: true
-    sort_by: prior
+    #https://talk.jekyllrb.com/t/collections-dont-order-properly-on-github-pages/4652
+    sort_by: priority  #sort_by does not work on GH pages because it uses an old version of Jekyll
 
 sass:
   #sass_dir: _sass/

@@ -6,7 +6,7 @@ image: /assets/images/traveltales/travel-tales.png
 technologies: Python
 authors: "Giacomo Pacini, Enrico Nello, Matteo Pierucci"
 date: 2024-01-16
-prior: 10
+priority: 10
 github: https://github.com/enricollen/TravelTales
 ---
 

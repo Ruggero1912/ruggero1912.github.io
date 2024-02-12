@@ -6,7 +6,7 @@ image: /assets/images/trainaround/wearOS-square.png
 technologies: Java, Android, WearOS, Bluetooth Low Energy
 authors: "Giacomo Pacini, Enrico Nello, Matteo Pierucci, Tommaso Giorgi"
 date: 2022-05-29
-prior: 14
+priority: 14
 github: https://github.com/Ruggero1912/TrainAround
 ---
 
@@ -68,3 +68,7 @@ clients / sensors.
 TrainAround was thought to be addressed for the track and field
 world, where the presence of small groups of athletes and their
 coaches would actually take advantages from using it.
+
+### TrainAround is Open Source
+
+You can find the complete code of both trainer and athlete apps in [this repo]({{ page.github }}).

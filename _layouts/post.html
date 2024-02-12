@@ -22,4 +22,10 @@ layout: default
         {% endif %}
     </span></div>
 
+    {% if page.image %}
+        <div style="text-align: center;">
+            <img src="{{ page.image }}" alt="{{ page.name }} logo">
+        </div>
+    {% endif %}
+
 {{ content }}

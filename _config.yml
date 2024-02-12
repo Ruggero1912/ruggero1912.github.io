@@ -6,7 +6,7 @@ author: "Giacomo Pacini"
 collections:
   projects:
     output: true
-    sort_by: priority
+    sort_by: prior
 
 sass:
   #sass_dir: _sass/

@@ -6,7 +6,7 @@ image: /assets/images/trainaround/wearOS-square.png
 technologies: Java, Android, WearOS, Bluetooth Low Energy
 authors: "Giacomo Pacini, Enrico Nello, Matteo Pierucci, Tommaso Giorgi"
 date: 2022-05-29
-priority: 14
+prior: 14
 github: https://github.com/Ruggero1912/TrainAround
 ---
 

@@ -7,7 +7,7 @@ technologies: PHP, JavaScript, Python, Flask, SciKitLearn, SQL
 authors: "Giacomo Pacini"
 date: 2020-04-16
 active_project: True
-priority: 5
+prior: 5
 ---
 
 

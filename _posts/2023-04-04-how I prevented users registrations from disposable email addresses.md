@@ -17,13 +17,13 @@ He was really proud of his trick on he was making fun of the web app.
 
 Thanks to him I discovered that dronesimulator needed an email domain verification procedure.
 
-#### What is a disposable email domain?
+### What is a disposable email domain?
 
 An email domain is called disposable when it easily allows to register unlimited new email addresses without any user verification.
 
 Some examples of disposable email services are: temp-mail.org, 10minutesmail.com or guerrillamail.com.
 
-#### How do you check if an email address is disposable?
+### How do you check if an email address is disposable?
 
 You can exploit some disposable domain checkers services that are available online such as:
 
@@ -34,7 +34,7 @@ You can exploit some disposable domain checkers services that are available onli
 
 My objective was to automate the domain verification process, but I also wanted to have control on the final valutation of each domain, in order to fix eventual false positive and, more frequently, false negatives.
 
-In order to meet all of these requirements I created a new database table to the service and adopted this verification flow:
+In order to meet all of these requirements I created a new database table and adopted this verification flow:
 
 ```
 Every time a new registration arrives check if the domain of the email address is already present in the table:
@@ -55,8 +55,15 @@ By adopting a sort of "lookup table" on the disposability checker API, the resul
 
 ![Blocked domains table structure]({{"/assets/images/blog/2023-04-04-domains table.png" | relative_url }})
 
-I noticed that the possibility to manually change the disposability valutation of the domains is useful, in fact some disposable domains that were not considered disposable by the API were exploited to bypass this mechanism, but I fixed that by simply updating the relative table records.
+I noticed that the possibility to manually change the valutation of the domains is useful, in fact some disposable domains that were not considered disposable by the API were exploited to bypass this mechanism, but I fixed that by simply updating the relative table records.
 
 ### Conclusions
 
 After the introduction of this functionality the percentage of fake / disposable email addresses adopted to register to dronesimulator decreased drastically and I almost never did have to manually intervene.
+
+
+A couple of months after the introduction of this check, I received another particular "suggested question" from a "new" user:
+
+![Happy ending for everyone]({{"/assets/images/blog/2023-04-04-new suggested question.png" | relative_url }})
+
+The domain of the email address associated to his account was `@gmail.com` 😎👌🔥

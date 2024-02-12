@@ -10,7 +10,7 @@ Recently one user of my web app dronesimulator.it ([here]({{ "/projects/dronesim
 
 He was really proud of his trick on he was making fun of the web app.
 
-![The "suggested question" from the hackerman user]({{"/assets/images/blog/2023-04-04-suggested question.png" | relative_url }})
+![The "suggested question" from the hackerman user]({{"/assets/images/blog/2023-04-04-suggested question.jpg" | relative_url }})
 
 >This is a "suggested question" from that user, in which he says that he does not like the web app, but he get rid of the service limitations by registering many accounts
 

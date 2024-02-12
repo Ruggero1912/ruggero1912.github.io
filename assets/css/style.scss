@@ -22,6 +22,7 @@
     --link-color:#1C75B9;
     --link-white-color:#fff;
     --bg-color: rgb(243,243,243);
+    --highlight-bg-color: rgb(196, 194, 194);
 }
 //dark theme
 [data-theme="dark"] {
@@ -29,6 +30,7 @@
     --link-color:#0a86da;
     --link-white-color:#c1bfbd;
     --bg-color: #333;
+    --highlight-bg-color: #6f6f6f;
 }
 //the redundancy is for backwards compatibility with browsers that do not support CSS variables.
 body
@@ -37,6 +39,10 @@ body
     color:var(--font-color);
     background:rgb(243,243,243);
     background:var(--bg-color);
+}
+
+.highlight{
+    background-color: var(--highlight-bg-color)!important;
 }
 
 .logo-image{

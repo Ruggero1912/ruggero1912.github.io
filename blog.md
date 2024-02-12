@@ -3,6 +3,13 @@
 <ul style="margin-left:0; list-style:none;">
   {% for post in site.posts %}
     <li>
+        <div class="feed-post-container">
+          {% if post.image %}
+              
+              <img src="{{ post.image }}" alt="{{post.title}}" class="feed-post-image"  />
+              
+          {% endif %}
+        <div>
           <a class="post-title h-entry u-url" href="{{ post.url }}">{{ post.title }}</a>
         <span class="post-meta"> <span>{{ post.date | date: "%-d %B %Y" }}</span>
          |
@@ -30,6 +37,8 @@
             <!-- < a href="{ { post.u rl } }" >... read more< / a > -->
 
         </span>
+        </div>
+        </div>
     </li>
   {% endfor %}
 </ul>

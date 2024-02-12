@@ -51,7 +51,7 @@ Every time a new registration arrives check if the domain of the email address i
 
 ```
 
-By adopting a sort of "lookup table" on the disposability checker API, the results given by the check flow are verificable and updateable.
+By adopting a sort of "lookup table" on the disposability checker API, the results given by the check flow are verificable and updatable.
 
 ![Blocked domains table structure]({{"/assets/images/blog/2023-04-04-domains table.png" | relative_url }})
 

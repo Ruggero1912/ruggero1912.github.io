@@ -27,6 +27,7 @@ It implements also machine learning techniques for questions classification.
 - workout tracking application
 - university project, made in team
 - app WearOS + android
+- **More details:** [here]({{ '/projects/trainaround' | relative_url }})
 
 
 ### Deep Learning: Road Status Classifier   📊🖼️🛤️

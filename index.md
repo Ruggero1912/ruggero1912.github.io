@@ -13,7 +13,7 @@ With a strong foundation in software engineering, coupled with expertise in deep
 ### dronesimulator 🚁📝🔎
 - **Description:** I developed a web platform that simulates the exam needed to achieve the Open Category UAS pilot certificate (drone pilot), it currently has **more than 21.000 users**.
 It implements also machine learning techniques for questions classification.
-- **Technologies Used:** PHP, SQL, APIs, JavaScript, Python, Flask, SciKit Learn
+- **Technologies Used:** PHP, SQL, JavaScript, Python, Flask, SciKit-Learn
 - **Link:** [dronesimulator.it](https://dronesimulator.it)
 - **More details**: [here]({{ '/projects/dronesimulator' | relative_url }})
 

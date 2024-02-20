@@ -9,3 +9,8 @@ date: 2022-01-30
 priority: 15
 github: https://github.com/Ruggero1912/MappIt
 ---
+
+
+*More details coming soon*
+
+GitHub repo: <a href="{{ page.github }}" target="_blank">here</a>.

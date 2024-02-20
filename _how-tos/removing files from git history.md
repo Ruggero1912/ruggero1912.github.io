@@ -32,4 +32,6 @@ Remind that if you or other people have a local copy of that repository, you wil
 
 
 
-[Source1](https://gist.github.com/gjerokrsteski/e4a10352448158ba827493eb116cda51?permalink_comment_id=3330898) [Source2](https://stackoverflow.com/questions/43762338/how-to-remove-file-from-git-history/55017549#55017549)
+[Source1](https://gist.github.com/gjerokrsteski/e4a10352448158ba827493eb116cda51?permalink_comment_id=3330898) | 
+[Source2](https://stackoverflow.com/questions/43762338/how-to-remove-file-from-git-history/55017549#55017549) | 
+[Source3](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository)

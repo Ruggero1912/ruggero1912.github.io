@@ -3,7 +3,7 @@ layout: post
 title: "How to create a database of thousands of users in a couple of hours"
 tags: mappit, open-street-maps, datapopulation, cold-start, data-seeder, data-seeding
 categories: web, backend
-image: /assets/images/blog/2023-04-04-image.png
+image: /assets/images/blog/2022-02-10-mappit data seeder.jpg
 ---
 
 When you realize a new application it is fundamental to populate its database with data, so that the first users coming will not find an empty page.

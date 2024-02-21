@@ -60,10 +60,10 @@ The system is capable of recognizing who is speaking, the vocal emotion and also
 
 Some short video demos:
 
-#### User registration and hardware architecture
+<!---#### User registration and hardware architecture
 
 {% include ytPlayer.html id="PPvsExLQKnY" %}
-
+--->
 #### News player interface
 
 {% include ytPlayer.html id="2C0YHlqBly8" %}

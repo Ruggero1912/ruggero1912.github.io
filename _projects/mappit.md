@@ -1,9 +1,9 @@
 ---
 layout: project
 name: MappIt
-short_description: discover new places to visit and share adventures and experiences, helping creators to promote their contents on the community.
+short_description: discover new places to visit and share adventures and experiences
 image: /assets/images/mappit/application-architecture-mappit.png
-technologies: Java, MongoDB, Neo4j, Spring
+technologies: Java, MongoDB, Neo4j, Spring, GeoJSON, OSM
 authors: "Giacomo Pacini, Enrico Nello, Matteo Pierucci"
 date: 2022-01-30
 priority: 15
@@ -38,7 +38,7 @@ The development of this service included many different aspects of software engi
 
 
 
-*More details coming soon*
+*Want to know more details? [Ask me](mailto:giacomo@paciosoft.com)*
 
 ### MappIt is Open Source
 

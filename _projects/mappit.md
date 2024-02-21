@@ -10,16 +10,18 @@ priority: 15
 github: https://github.com/Ruggero1912/MappIt
 ---
 
-MappIt is the social network for explorers, in which you can post your journeys to points of interests of many kinds, like castles, ruines, ancient buildings and historical places in general.
+MappIt is the *social network for explorers*, in which you can post your journeys to points of interests of many kinds, like castles, ruines, ancient buildings and historical places in general.
 
 The user can post new visits, find new places to visit, interact with posts of other users and search among them according to various filters, like distance or popularity.
+
+### Service implementation
 
 The implementation of this project focused mainly on two aspects:
 - **the backend of the service:** APIs of the service, the databases structure and the business logic
 - **data population:** scripts that exploited external API and services to add places and posts in the databases of the service
 
 
-The development of this service included many different aspects of software engineering and service projectation like for example:
+The development of this service included many different aspects of software engineering and service design like for example:
 - **Java application packages organization**
 - **Java application databases connection handling**
 - **Service endpoints**
@@ -38,4 +40,8 @@ The development of this service included many different aspects of software engi
 
 *More details coming soon*
 
-GitHub repo: <a href="{{ page.github }}" target="_blank">here</a>.
+### MappIt is Open Source
+
+The code is freely available in this GitHub repo: <a href="{{ page.github }}" target="_blank">here</a>.
+
+You will also find there a more technical readme file and the complete technical documentation of the project.

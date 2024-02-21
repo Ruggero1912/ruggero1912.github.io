@@ -1,6 +1,7 @@
 title: "paciosoft - portfolio"
 description: "My personal portfolio and blog"
 contact-mail: "mailto:giacomo@paciosoft.com"
+permalink: /:year/:month/:day/:title:output_ext
 minima:
   skin: dark
 author: "Giacomo Pacini"

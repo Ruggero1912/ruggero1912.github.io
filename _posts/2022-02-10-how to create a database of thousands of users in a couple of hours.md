@@ -151,4 +151,4 @@ Often the data accessible in a service at its launch is fundamental for its succ
 
 If you want to get more details and go deeper in the details of my implementation of the data population script for MappIt, you can have a look at the code and test it by yourself, since it is open source: [MappIt data seeder repo]({{ "https://github.com/Ruggero1912/MappIt/tree/master/dataPopulation" | relative_url }}).
 
-If you have further questions on the topic, [contact me]({{site.contact-email}}).
+If you have further questions on the topic, [contact me]({{ site.contact-mail }}).

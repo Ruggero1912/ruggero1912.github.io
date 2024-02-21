@@ -103,7 +103,7 @@ Visit the [blog](/blog) section for the complete list of articles.
 <details>
   <summary>Interests</summary>
   <p class="topic-badge">artificial intelligence</p>
-  <p class="topic-badge">internet of things</p>
+  <p class="topic-badge">home automation</p>
   <p class="topic-badge">cloud computing</p>
   <p class="topic-badge">electronics</p>
   <p class="topic-badge">programming</p>
@@ -114,6 +114,7 @@ Visit the [blog](/blog) section for the complete list of articles.
   <p class="topic-badge">3D printing</p>
   <p class="topic-badge">CTFs</p>
   <p class="topic-badge">personal finance</p>
+  <p class="topic-badge">mobile development</p>
 </details>
 
 <details>
@@ -133,7 +134,11 @@ Visit the [blog](/blog) section for the complete list of articles.
   <p class="topic-badge">Hadoop</p>
   <p class="topic-badge">Spark</p>
   <p class="topic-badge">TensorFlow</p>
+  <p class="topic-badge">Sci-Kit Learn</p>
   <p class="topic-badge">Julia</p>
+  <p class="topic-badge">Reinforcement Learning</p>
+  <p class="topic-badge">Deep Learning</p>
+  <p class="topic-badge">Computer architectures</p>
 </details>
 
 ## Contact Me 📬

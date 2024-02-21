@@ -41,6 +41,7 @@ It implements also machine learning techniques for questions classification.
 - university project, made in team
 - backend Java using Spring framework
 - NoSQL technologies as MongoDB and Neo4J
+- **More details:** [here]({{ '/projects/mappit' | relative_url }})
 
 ### Internet of Things:  SmartSupermarket 🕸🏭🛒
 - university project, made in team 

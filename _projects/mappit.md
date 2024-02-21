@@ -34,7 +34,7 @@ The development of this service included many different aspects of software engi
 - **Database sharding**: we proposed a database sharding based on the country code of places and users in order to grant higher service availability
 - **Cross-database consistency management**
 - **Definition of analysis queries**
-- **Data population service**: [here an article about it]({{'/2022/02/10/how-to-create-a-database-of-thousands-of-users-in-a-couple-of-hours.html' | relative_url}}.
+- **Data population service**: [here an article about it]({{'/2022/02/10/how-to-create-a-database-of-thousands-of-users-in-a-couple-of-hours.html' | relative_url}}).
     
     
  <!--    { % pos t_url '2022-02-10-how to create a database of thousands of users in a couple of hours' %})

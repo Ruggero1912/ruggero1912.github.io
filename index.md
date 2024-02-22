@@ -119,21 +119,21 @@ Visit the [blog](/blog) section for the complete list of articles.
 
 <details>
   <summary>Technical knowledge</summary>
-  <p class="topic-badge">DBMS MySQL</p>
+  <p class="topic-badge" style="background-color: #de9208;">DBMS MySQL</p>
   <p class="topic-badge">C++</p>
   <p class="topic-badge">JavaScript</p>
-  <p class="topic-badge">PHP</p>
+  <p class="topic-badge" style="background-color: #556198;">PHP</p>
   <p class="topic-badge">HTML, CSS</p>
-  <p class="topic-badge">Laravel</p>
+  <p class="topic-badge" style="background-color: #f33808;">Laravel</p>
   <p class="topic-badge">Linux</p>
   <p class="topic-badge">Assembly</p>
-  <p class="topic-badge">Python</p>
-  <p class="topic-badge">Java</p>
-  <p class="topic-badge">MongoDB</p>
-  <p class="topic-badge">Neo4J</p>
-  <p class="topic-badge">Hadoop</p>
-  <p class="topic-badge">Spark</p>
-  <p class="topic-badge">TensorFlow</p>
+  <p class="topic-badge" style="background-color: #4372a2;">Python</p>
+  <p class="topic-badge" style="background-color: #e03725;">Java</p>
+  <p class="topic-badge" style="background-color: #44ac53;">MongoDB</p>
+  <p class="topic-badge" style="background-color: black;">Neo4J</p>
+  <p class="topic-badge" style="background-color: #80d1f9;">Hadoop</p>
+  <p class="topic-badge" style="background-color: #da6008;">Spark</p>
+  <p class="topic-badge" style="background-color: #f5bc1b;">TensorFlow</p>
   <p class="topic-badge">Sci-Kit Learn</p>
   <p class="topic-badge">Julia</p>
   <p class="topic-badge">Reinforcement Learning</p>

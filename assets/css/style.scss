@@ -109,18 +109,26 @@ a.post-title{
     padding: 4px;
 }
 
-.topic-badge:nth-of-type(4n) {
+.topic-badge:nth-of-type(6n) {
     background-color: rgb(255, 179, 0);
 }
 
-.topic-badge:nth-of-type(4n + 1) {
+.topic-badge:nth-of-type(6n + 1) {
     background-color: rgb(255, 0, 153);
 }
 
-.topic-badge:nth-of-type(4n + 2) {
+.topic-badge:nth-of-type(6n + 2) {
     background-color: #0f811c;
 }
 
-.topic-badge:nth-of-type(4n + 3) {
+.topic-badge:nth-of-type(6n + 3) {
     background-color: rgb(255, 85, 0);
+}
+
+.topic-badge:nth-of-type(6n + 4) {
+    background-color: rgb(0, 145, 255);
+}
+
+.topic-badge:nth-of-type(6n + 5) {
+    background-color: rgb(25, 112, 24);
 }

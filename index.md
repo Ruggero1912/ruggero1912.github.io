@@ -8,12 +8,16 @@
 
 With a strong foundation in software engineering, coupled with expertise in deep learning, cloud computing, and data engineering, I am dedicated to leveraging technology to solve complex problems and drive innovation. --->
 
-I am a passionate software engineer currently pursuing my Master's degree in Artificial Intelligence and Data Engineering at the University of Pisa, following my Bachelor's degree in Computer Engineering from the same institution. 
+
+I am a passionate software engineer currently pursuing my Master's degree in Artificial Intelligence and Data Engineering at the University of Pisa, following my Bachelor's degree in Computer Engineering from the same institution. <br/>
+With a strong foundation in computer engineering, coupled with expertise in deep learning, cloud computing, and data engineering, I am dedicated to leveraging technology to solve complex challenges and drive innovation.
+
+#### My interests
 
 I love designing and developing things that impact on people’s everyday life.
 My main skill is **logical thinking**, and I like to apply it to software engineering problems.
 
-With a strong foundation in computer engineering, coupled with expertise in deep learning, cloud computing, and data engineering, I am dedicated to leveraging technology to solve complex challenges and drive innovation.
+#### What I'm doing
 
 I am currently working on my master’s thesis and I am searching for a job opportunity that would make me grow.
 

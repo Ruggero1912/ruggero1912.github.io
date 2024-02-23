@@ -1,6 +1,6 @@
 <h1 style="display:flex; justify-content:space-between;"> 
 <span style="align-self: flex-end;">👋 Hi! I'm Giacomo Pacini </span>
-<img style="border-radius:50%;" src="{{ '/me.jpeg' | relative_url }}" alt="a picture of me" />
+<img style="border-radius:50%; max-width:100px;" src="{{ '/me.jpeg' | relative_url }}" alt="a picture of me" />
 </h1>
 
 <!-- ## About Me ℹ️ -->

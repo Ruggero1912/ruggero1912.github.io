@@ -9,7 +9,7 @@
 With a strong foundation in software engineering, coupled with expertise in deep learning, cloud computing, and data engineering, I am dedicated to leveraging technology to solve complex problems and drive innovation. --->
 
 
-I am a passionate software engineer currently pursuing my Master's degree in Artificial Intelligence and Data Engineering at the University of Pisa, following my Bachelor's degree in Computer Engineering from the same institution. <br/>
+I am a passionate software engineer freshly graduated in the Master's degree in Artificial Intelligence and Data Engineering at the University of Pisa, following my Bachelor's degree in Computer Engineering from the same institution. <br/>
 With a strong foundation in computer engineering, coupled with expertise in deep learning, cloud computing, and data engineering, I am dedicated to leveraging technology to solve complex challenges and drive innovation.
 
 #### My interests
@@ -94,8 +94,10 @@ Visit the [blog](/blog) section for the complete list of articles.
 
 ## Education 🎓
 ### **Master's Degree:** Artificial Intelligence and Data Engineering
->**University of Pisa**, current
-
+>**University of Pisa**, 
+>26th July 2024
+>
+>Degree mark: 110/110 cum laude
 
 - data mining techniques and algorithms, **machine learning** and **deep learning** knowledge
 - **team work and project management** expertise
@@ -108,7 +110,7 @@ Visit the [blog](/blog) section for the complete list of articles.
 > **University of Pisa**,
 > 30 April 2021
 >
->Degree mark: 110
+>Degree mark: 110/110
 
 
 - object oriented programming, databases analysis and management skills

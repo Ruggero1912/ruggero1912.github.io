@@ -19,10 +19,7 @@ My main skill is **logical thinking**, and I like to apply it to software engine
 
 #### What I'm doing
 
-<!--I am currently working on my master’s thesis and I am searching for a job opportunity that would make me grow.-->
-I just graduated in Artificial Intelligence and Data Engineering with a master's thesis titled *Advanced Query Suggestion for Interactive Text-to-Image Retrieval: a novel task and benchmark* in the field of computer vision and MultiModal AI.
-I am looking for a job opportunity that would make me grow.
-
+I recently graduated in Artificial Intelligence and Data Engineering with a master's thesis titled *Advanced Query Suggestion for Interactive Text-to-Image Retrieval: A Novel Task and Benchmark*, focusing on computer vision and multimodal AI. This November, I will begin my PhD in Multimodal Artificial Intelligence at the University of Pisa.
 
 ## Projects 💻
 

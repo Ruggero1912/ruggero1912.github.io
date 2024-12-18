@@ -28,7 +28,7 @@
         <span class="post-excert">
         {{ post.excerpt | strip_html | truncatewords: 15 }} 
           
-            <a href="{% if post.website %}{{post.website}}{% else %}{{ post.url }}"> read more</a>
+            <a href="{% if post.website %}{{post.website}}{% else %}{{ post.url }}{% endif %}"> read more</a>
 
         </span>
         </div>

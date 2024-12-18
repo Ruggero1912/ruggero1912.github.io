@@ -1,4 +1,4 @@
-### HowTos
+### Pubblications
 
 <ul style="margin-left:0; list-style:none;">
   {% for post in site.pubblications %}
@@ -17,7 +17,7 @@
           {% if post.published_at %}
             published at {{ post.published_at }}
           {% endif %}
-         Posted by
+         |
           {% if post.author %}
           {{ post.author }}
           {% else %}

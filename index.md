@@ -9,7 +9,7 @@
 With a strong foundation in software engineering, coupled with expertise in deep learning, cloud computing, and data engineering, I am dedicated to leveraging technology to solve complex problems and drive innovation. --->
 
 
-I am a passionate software engineer freshly graduated in the Master's degree in Artificial Intelligence and Data Engineering at the University of Pisa, following my Bachelor's degree in Computer Engineering from the same institution. <br/>
+I am a passionate software engineer freshly graduated in the Master's degree in Artificial Intelligence and Data Engineering at the University of Pisa with a thesis titled *Advanced Query Suggestion for Interactive Text-to-Image Retrieval: A Novel Task and Benchmark*, focused on computer vision, multimodal AI and information retrieval.<!-- , following my Bachelor's degree in Computer Engineering from the same institution. --><br/> 
 With a strong foundation in computer engineering, coupled with expertise in deep learning, cloud computing, and data engineering, I am dedicated to leveraging technology to solve complex challenges and drive innovation.
 
 #### My interests
@@ -19,7 +19,9 @@ My main skill is **logical thinking**, and I like to apply it to software engine
 
 #### What I'm doing
 
-I recently graduated in Artificial Intelligence and Data Engineering with a master's thesis titled *Advanced Query Suggestion for Interactive Text-to-Image Retrieval: A Novel Task and Benchmark*, focusing on computer vision and multimodal AI. This November, I will begin my PhD in Multimodal Artificial Intelligence at the University of Pisa.
+I am an associate researcher in multimodal Artificial Intelligence at CNR - ISTI, part of the Italian National Research Council.
+I am doing research in the field of image captioning, multi-modal information retrieval and multimodal AI in general.
+This November I started my PhD at the University of Pisa.
 
 ## Projects 💻
 
@@ -63,10 +65,33 @@ It *implements* machine *learning techniques* for *questions classification*.
 - nodes firmware (Contiki-NG based) 
 - server collecting and processing nodes' data 
 
+## Articles 📝
+
+<ul style="margin-left:0; list-style:none;">
+  {% for post in site.pubblications limit:3 %}
+    <li>
+          <a class="post-title h-entry u-url" href="{% if post.website %}{{post.website}}{% else %}{{ post.url }}{% endif %}">{{ post.title }}</a>
+        <span class="post-meta"> <span>{{ post.date | date: "%-d %B %Y" }}</span>
+            |
+        {% if post.published_at %}
+            published at {{ post.published_at }}
+            |
+        {% endif %}
+        {% if post.author %}
+            {{ post.author }}
+            |
+        {% endif %}
+         </span>
+        <br>
+    </li>
+  {% endfor %}
+</ul>
+
+Visit the [pubblications](/pubblications) section for the complete list of articles.
 
 ## Blog 📝
 
-### Latest Articles 📰
+### Latest Posts 📰
 
 <ul style="margin-left:0; list-style:none;">
   {% for post in site.posts limit:3 %}
@@ -89,7 +114,7 @@ It *implements* machine *learning techniques* for *questions classification*.
   {% endfor %}
 </ul>
 
-Visit the [blog](/blog) section for the complete list of articles.
+Visit the [blog](/blog) section for the complete list of posts.
 
 ## Education 🎓
 ### **Master's Degree:** Artificial Intelligence and Data Engineering

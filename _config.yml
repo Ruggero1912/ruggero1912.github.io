@@ -12,6 +12,8 @@ collections:
     sort_by: priority  #sort_by does not work on GH pages because it uses an old version of Jekyll
   how-tos:
     output: true
+  pubblications:
+    output: true
 
 sass:
   #sass_dir: _sass/

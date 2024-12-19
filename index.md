@@ -52,6 +52,7 @@ It *implements* machine *learning techniques* for *questions classification*.
 - university project, made in team 
 - generation & labelling image dataset
 - NN, CNN and transfer learning
+- **More details:** [here]({{ '/projects/road-status-classifier' | relative_url }})
 
 ### Backend web + Database: MappIt 🗺️📍🍃
 - "explorations' social network": discover new places to visit and share adventures and experiences

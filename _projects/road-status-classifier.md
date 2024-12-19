@@ -10,7 +10,7 @@ priority: 15
 #github: https://github.com/Ruggero1912/
 ---
 
-RoadHealthNet introduces an innovative approach to assess road surface health using neural networks and image analysis.
+Road Status Classifier introduces an innovative approach to assess road surface health using neural networks and image analysis.
 
 ### Current Challenges in Road Infrastructure Monitoring
 
@@ -59,10 +59,11 @@ To further boost performance, we developed an ensemble model using soft-voting. 
 
 ### Use Cases
 
-While not designed exclusively for them, infrastructure companies could leverage RoadHealthNet to:
+While not designed exclusively for them, infrastructure companies could leverage Road Status Classifier to:
 - Automate routine inspections across their networks.
 - Reduce costs associated with manual surveys.
 - Identify areas needing urgent attention without delay.
 
-
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7076837221877583872" height="985" width="504" frameborder="0" allowfullscreen="" title="Post incorporato"></iframe>
+<p style="align:center;">
+    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7076837221877583872" height="985" width="504" frameborder="0" allowfullscreen="" title="Post incorporato"></iframe>
+</p>

@@ -19,14 +19,14 @@ My main skill is **logical thinking**, and I like to apply it to software engine
 
 #### What I'm doing
 
-I am an associate researcher in multimodal Artificial Intelligence at CNR - ISTI, part of the Italian National Research Council.
-I am doing research in the field of image captioning, multi-modal information retrieval and multimodal AI in general.
+I am an associate researcher in multimodal Artificial Intelligence at CNR - ISTI, part of the Italian National Research Council.<br/>
+I am doing research in the field of image captioning, multi-modal information retrieval and multimodal AI in general.<br/>
 This November I started my PhD at the University of Pisa.
 
 ## Projects 💻
 
 ### dronesimulator 🚁📝🔎
-- **Description:** I developed a web platform that simulates the exam needed to achieve the Open Category UAS pilot certificate (drone pilot), it currently has **more than 21.000 users**.<br/>
+- **Description:** I developed a web platform that simulates the exam needed to achieve the Open Category UAS pilot certificate (drone pilot), it currently has **more than 24.000 users**.<br/>
 It *implements* machine *learning techniques* for *questions classification*.
 - **Technologies Used:** PHP, SQL, JavaScript, Python, Flask, SciKit-Learn
 - **Link:** [dronesimulator.it](https://dronesimulator.it)

@@ -5,7 +5,7 @@ tags: query suggestion, cross-modal retrieval, text-to-image retrieval
 categories: Information Retrieval, Research
 author: G. Pacini et al.
 published_at: European Conference on Information Retrieval 2025
-image: /assets/images/pubblications/croqs.webp
+image: /assets/images/publications/croqs.webp
 website: https://paciosoft.com/CroQS-benchmark/
 date: 2024-12-18
 ---

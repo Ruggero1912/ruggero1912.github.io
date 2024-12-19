@@ -68,7 +68,7 @@ It *implements* machine *learning techniques* for *questions classification*.
 ## Articles 📝
 
 <ul style="margin-left:0; list-style:none;">
-  {% for post in site.pubblications limit:3 %}
+  {% for post in site.publications limit:3 %}
     <li>
           <a class="post-title h-entry u-url" href="{% if post.website %}{{post.website}}{% else %}{{ post.url }}{% endif %}">{{ post.title }}</a>
         <span class="post-meta"> <span>{{ post.date | date: "%-d %B %Y" }}</span>
@@ -87,7 +87,7 @@ It *implements* machine *learning techniques* for *questions classification*.
   {% endfor %}
 </ul>
 
-Visit the [pubblications](/pubblications) section for the complete list of articles.
+Visit the [publications](/publications) section for the complete list of articles.
 
 ## Blog 📝
 

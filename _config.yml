@@ -19,3 +19,6 @@ sass:
   #sass_dir: _sass/
   load_paths:
     - /assets/css
+
+plugins:
+  - jekyll-sitemap

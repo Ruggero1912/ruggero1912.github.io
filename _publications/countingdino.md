@@ -6,7 +6,7 @@ categories: Computer Vision, Research
 author: G. Pacini, L. Bianchi et al.
 #published_at: European Conference on Information Retrieval 2025
 image: /assets/images/publications/countingDINO-example.png
-website: https://lorebianchi98.github.io/CountingDINO/
+website: https://paciosoft.com/CountingDINO/
 date: 2025-04-23
 ---
 

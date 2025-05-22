@@ -1,2 +1,3 @@
 Sitemap: https://paciosoft.com/sitemap.xml
 Sitemap: https://paciosoft.com/CroQS-benchmark/sitemap.xml
+Sitemap: https://paciosoft.com/Patch-ioner/sitemap.xml

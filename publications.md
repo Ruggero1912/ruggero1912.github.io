@@ -1,7 +1,8 @@
 ### Publications
 
 <ul style="margin-left:0; list-style:none;">
-  {% for post in site.publications | sort: "date" | reverse %}
+  {% assign sorted-publications = site.publications | sort: 'date' | reverse %}
+  {% for post in sorted-publications %}
     <li>
         <div class="feed-post-container">
           {% if post.image %}

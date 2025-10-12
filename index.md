@@ -9,7 +9,7 @@
 With a strong foundation in software engineering, coupled with expertise in deep learning, cloud computing, and data engineering, I am dedicated to leveraging technology to solve complex problems and drive innovation. --->
 
 
-I am a passionate software engineer freshly graduated in the Master's degree in Artificial Intelligence and Data Engineering at the University of Pisa with a thesis titled *Advanced Query Suggestion for Interactive Text-to-Image Retrieval: A Novel Task and Benchmark*, focused on computer vision, multimodal AI and information retrieval.<!-- , following my Bachelor's degree in Computer Engineering from the same institution. --><br/> 
+I am a passionate software engineer graduated in the Master's degree in Artificial Intelligence and Data Engineering at the University of Pisa with a thesis titled *Advanced Query Suggestion for Interactive Text-to-Image Retrieval: A Novel Task and Benchmark*, focused on computer vision, multimodal AI and information retrieval.<!-- , following my Bachelor's degree in Computer Engineering from the same institution. --><br/> 
 With a strong foundation in computer engineering, coupled with expertise in deep learning, cloud computing, and data engineering, I am dedicated to leveraging technology to solve complex challenges and drive innovation.
 
 #### My interests
@@ -21,7 +21,7 @@ My main skill is **logical thinking**, and I like to apply it to software engine
 
 I am an associate researcher in multimodal Artificial Intelligence at CNR - ISTI, part of the Italian National Research Council.<br/>
 I am doing research in the field of image captioning, multi-modal information retrieval and multimodal AI in general.<br/>
-This November I started my PhD at the University of Pisa.
+In November 2024 I started my PhD at the University of Pisa.
 
 ## Projects 💻
 
@@ -69,7 +69,8 @@ It *implements* machine *learning techniques* for *questions classification*.
 ## Articles 📝
 
 <ul style="margin-left:0; list-style:none;">
-  {% for post in site.publications limit:3 %}
+  {% assign sorted-publications = site.publications | sort: 'date' | reverse %}
+  {% for post in sorted-publications limit:3 %}
     <li>
           <a class="post-title h-entry u-url" href="{% if post.website %}{{post.website}}{% else %}{{ post.url }}{% endif %}">{{ post.title }}</a>
         <span class="post-meta"> <span>{{ post.date | date: "%-d %B %Y" }}</span>

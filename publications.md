@@ -1,7 +1,7 @@
 ### Publications
 
 <ul style="margin-left:0; list-style:none;">
-  {% for post in site.publications | sort: "date" %}
+  {% for post in site.publications | sort: "date" | reverse %}
     <li>
         <div class="feed-post-container">
           {% if post.image %}

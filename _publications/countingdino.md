@@ -4,7 +4,7 @@ title: "CountingDINO 🧮🦕 A Training-free Pipeline for Exemplar-based Class-
 tags: counting, foundation models, unsupervised
 categories: Computer Vision, Research
 author: G. Pacini, L. Bianchi et al.
-#published_at: European Conference on Information Retrieval 2025
+published_at: Winter Conference on Applications of Computer Vision 2026
 image: /assets/images/publications/countingDINO-example.png
 website: https://paciosoft.com/CountingDINO/
 date: 2025-04-23

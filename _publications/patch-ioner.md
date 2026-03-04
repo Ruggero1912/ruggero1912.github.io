@@ -4,7 +4,7 @@ title: "One Patch to Caption Them All: A Unified Zero-Shot Captioning Framework"
 tags: captioning, foundation models, DINO, region-level captioning, patch-level captioning
 categories: Computer Vision, Research
 author: L. Bianchi, G. Pacini et al.
-#published_at: European Conference on Information Retrieval 2025
+published_at: Computer Vision and Pattern Recognition 2026
 image: /assets/images/publications/patch-ioner.webp
 website: https://paciosoft.com/Patch-ioner/
 date: 2025-09-30

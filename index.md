@@ -9,7 +9,9 @@
 With a strong foundation in software engineering, coupled with expertise in deep learning, cloud computing, and data engineering, I am dedicated to leveraging technology to solve complex problems and drive innovation. --->
 
 
-I am a passionate software engineer graduated in the Master's degree in Artificial Intelligence and Data Engineering at the University of Pisa with a thesis titled *Advanced Query Suggestion for Interactive Text-to-Image Retrieval: A Novel Task and Benchmark*, focused on computer vision, multimodal AI and information retrieval.<!-- , following my Bachelor's degree in Computer Engineering from the same institution. --><br/> 
+I am a passionate software engineer graduated in the Master's degree in Artificial Intelligence and Data Engineering at the University of Pisa.
+<!-- with a thesis titled *Advanced Query Suggestion for Interactive Text-to-Image Retrieval: A Novel Task and Benchmark*, focused on computer vision, multimodal AI and information retrieval. -->
+ <!-- , following my Bachelor's degree in Computer Engineering from the same institution. --><br/> 
 With a strong foundation in computer engineering, coupled with expertise in deep learning, cloud computing, and data engineering, I am dedicated to leveraging technology to solve complex challenges and drive innovation.
 
 #### My interests
@@ -195,6 +197,29 @@ Visit the [blog](/blog) section for the complete list of posts.
   <p class="topic-badge">Computer networks</p>
   <p class="topic-badge">Computer architectures</p>
 </details>
+
+## Awards 🏆
+
+<ul style="margin-left:0; list-style:none;">
+  {% assign sorted-awards = site.awards | sort: 'date' | reverse %}
+  {% for post in sorted-awards %}
+    <li>
+          <a class="post-title h-entry u-url" href="{% if post.website %}{{post.website}}{% else %}{{ post.url }}{% endif %}">{{ post.title }}</a>
+        <span class="post-meta"> <span>{{ post.date | date: "%-d %B %Y" }}</span>
+            |
+        {% if post.published_at %}
+            published at {{ post.published_at }}
+            |
+        {% endif %}
+        {% if post.author %}
+            {{ post.author }}
+            |
+        {% endif %}
+         </span>
+        <br>
+    </li>
+  {% endfor %}
+</ul>
 
 ## Contact Me 📬
 Feel free to reach out to me via email at [giacomo@paciosoft.com](mailto:giacomo@paciosoft.com) or connect with me on [LinkedIn](https://dronesimulator.it/r/my-linkedin).

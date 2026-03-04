@@ -14,16 +14,41 @@ I am a passionate software engineer graduated in the Master's degree in Artifici
  <!-- , following my Bachelor's degree in Computer Engineering from the same institution. --><br/> 
 With a strong foundation in computer engineering, coupled with expertise in deep learning, cloud computing, and data engineering, I am dedicated to leveraging technology to solve complex challenges and drive innovation.
 
-#### My interests
+<!-- #### My interests
 
 I love designing and developing things that impact on people’s everyday life.
-My main skill is **logical thinking**, and I like to apply it to software engineering problems.
+My main skill is **logical thinking**, and I like to apply it to software engineering problems. -->
 
 #### What I'm doing
 
 I am an associate researcher in multimodal Artificial Intelligence at CNR - ISTI, part of the Italian National Research Council.<br/>
 I am doing research in the field of image captioning, multi-modal information retrieval and multimodal AI in general.<br/>
 In November 2024 I started my PhD at the University of Pisa.
+
+## Publications 📝
+
+<ul style="margin-left:0; list-style:none;">
+  {% assign sorted-publications = site.publications | sort: 'date' | reverse %}
+  {% for post in sorted-publications limit:3 %}
+    <li>
+          <a class="post-title h-entry u-url" href="{% if post.website %}{{post.website}}{% else %}{{ post.url }}{% endif %}">{{ post.title }}</a>
+        <span class="post-meta"> <span>{{ post.date | date: "%-d %B %Y" }}</span>
+            |
+        {% if post.published_at %}
+            published at {{ post.published_at }}
+            |
+        {% endif %}
+        {% if post.author %}
+            {{ post.author }}
+            |
+        {% endif %}
+         </span>
+        <br>
+    </li>
+  {% endfor %}
+</ul>
+
+Visit the [publications](/publications) section for the complete list of articles.
 
 ## Projects 💻
 
@@ -67,31 +92,6 @@ It *implements* machine *learning techniques* for *questions classification*.
 - IoT network (MQTT & CoAP)
 - nodes firmware (Contiki-NG based) 
 - server collecting and processing nodes' data 
-
-## Articles 📝
-
-<ul style="margin-left:0; list-style:none;">
-  {% assign sorted-publications = site.publications | sort: 'date' | reverse %}
-  {% for post in sorted-publications limit:3 %}
-    <li>
-          <a class="post-title h-entry u-url" href="{% if post.website %}{{post.website}}{% else %}{{ post.url }}{% endif %}">{{ post.title }}</a>
-        <span class="post-meta"> <span>{{ post.date | date: "%-d %B %Y" }}</span>
-            |
-        {% if post.published_at %}
-            published at {{ post.published_at }}
-            |
-        {% endif %}
-        {% if post.author %}
-            {{ post.author }}
-            |
-        {% endif %}
-         </span>
-        <br>
-    </li>
-  {% endfor %}
-</ul>
-
-Visit the [publications](/publications) section for the complete list of articles.
 
 ## Blog 📝
 

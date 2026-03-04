@@ -200,26 +200,32 @@ Visit the [blog](/blog) section for the complete list of posts.
 
 ## Awards 🏆
 
-<ul style="margin-left:0; list-style:none;">
+<div class="awards-container">
   {% assign sorted-awards = site.awards | sort: 'date' | reverse %}
   {% for post in sorted-awards %}
-    <li>
-          <a class="post-title h-entry u-url" href="{% if post.website %}{{post.website}}{% else %}{{ post.url }}{% endif %}">{{ post.title }}</a>
-        <span class="post-meta"> <span>{{ post.date | date: "%-d %B %Y" }}</span>
-            |
-        {% if post.published_at %}
-            {{ post.published_at }}
-            |
-        {% endif %}
-        {% if post.author %}
-            {{ post.author }}
-            |
-        {% endif %}
-         </span>
-        <br>
-    </li>
+    <div class="award-card">
+      <div class="award-content">
+        <a class="award-title" href="{% if post.website %}{{post.website}}{% else %}{{ post.url }}{% endif %}">
+          {{ post.title }}
+        </a>
+        <div class="award-meta">
+          <span class="award-date">{{ post.date | date: "%B %Y" }}</span>
+          {% if post.published_at %}
+            <span class="award-org"> | {{ post.published_at }}</span>
+          {% endif %}
+          {% if post.author %}
+            <div class="award-author">{{ post.author }}</div>
+          {% endif %}
+        </div>
+      </div>
+      {% if post.image %}
+      <div class="award-badge-container">
+        <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="award-icon">
+      </div>
+      {% endif %}
+    </div>
   {% endfor %}
-</ul>
+</div>
 
 ## Contact Me 📬
 Feel free to reach out to me via email at [giacomo@paciosoft.com](mailto:giacomo@paciosoft.com) or connect with me on [LinkedIn](https://dronesimulator.it/r/my-linkedin).

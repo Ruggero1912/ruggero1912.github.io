@@ -5,6 +5,5 @@ title: "First Ascent 2022 - Ascender"
 #categories: Computer Vision, Research
 published_at: Bending Spoons
 image: /assets/images/awards/bendingspoons_firstascent.jpeg
-website: https://hackathon.datapizza.com/
 date: 2022-09-25
 ---

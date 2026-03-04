@@ -208,7 +208,7 @@ Visit the [blog](/blog) section for the complete list of posts.
         <span class="post-meta"> <span>{{ post.date | date: "%-d %B %Y" }}</span>
             |
         {% if post.published_at %}
-            published at {{ post.published_at }}
+            {{ post.published_at }}
             |
         {% endif %}
         {% if post.author %}
